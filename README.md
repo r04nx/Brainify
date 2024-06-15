@@ -1,16 +1,16 @@
 # Setup Guide for Brainify ML App
 
 ## 1. Clone Repository
-git clone <repository_url>
+git clone https://github.com/r04nx/brainify.git
 
 ## 2. Navigate to Project Directory
-cd brainify
+cd brainify/Brainify
 
 ## 3. Install Dependencies
 pip install -r requirements.txt
 
 ## 4. Setup Jupyter Notebook
-cd notebooks
+cd '../Jupyter Notebook'
 
 ## 5. Run Jupyter Notebook
 jupyter notebook

@@ -42,7 +42,7 @@ st.write("Upload an image to detect brain tumors:")
 uploaded_file = st.file_uploader("Choose a file", type=["png", "jpg", "jpeg"])
 
 if uploaded_file is not None:
-    file_path = uploaded_file.name
+    file_path = os.path.join("uploads", uploaded_file.name)
     with open(file_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
 
